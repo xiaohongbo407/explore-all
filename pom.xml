@@ -18,7 +18,7 @@
     <modules>
         <module>explore-parent</module>
         <module>explore-study</module>
-
+        <module>explore-pattern</module>
     </modules>
    
 </project>
