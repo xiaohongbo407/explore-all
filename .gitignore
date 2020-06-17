@@ -1,4 +1,5 @@
 # Project exclude paths
-/explore-study/target/
+/*/target/
 
 *.iml
+.idea
