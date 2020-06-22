@@ -6,14 +6,22 @@ package com.explore.pattern.template;
  * @date
  **/
 public abstract class GameTemplate {
-
+    /**
+     * 初始化游戏
+     */
     abstract void initialize();
 
+    /**
+     * 开始游戏
+     */
     abstract void startPlay();
 
+    /**
+     * 结束游戏
+     */
     abstract void endPlay();
 
-    //模板
+    //模板执行流程
     public final void play() {
         //初始化游戏
         initialize();
